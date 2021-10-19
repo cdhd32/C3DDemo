@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\compiler\vc16win64\CMakeFiles\9bba398e6b0093c2f133220bbea1c5bf\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{EB52579A-6B50-3F5D-8ED4-CC4D52660F74}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

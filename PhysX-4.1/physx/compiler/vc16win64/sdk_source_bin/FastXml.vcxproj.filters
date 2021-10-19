@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\fastxml\src\PsFastXml.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\fastxml\include\PsFastXml.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\compiler\cmake\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{5A0F2E97-81A1-3C3C-93F2-80DD2B42AD87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{82276B81-DF45-369F-85CA-010DC6EED10D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

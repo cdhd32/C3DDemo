@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\api\src\px_globals.cpp">
+      <Filter>API Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\common\src\pipeline\PxcContactCache.cpp">
+      <Filter>Common Source\pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\common\src\pipeline\PxcContactMethodImpl.cpp">
+      <Filter>Common Source\pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\common\src\pipeline\PxcMaterialHeightField.cpp">
+      <Filter>Common Source\pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\common\src\pipeline\PxcMaterialMesh.cpp">
+      <Filter>Common Source\pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\common\src\pipeline\PxcMaterialMethodImpl.cpp">
+      <Filter>Common Source\pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\common\src\pipeline\PxcMaterialShape.cpp">
+      <Filter>Common Source\pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\common\src\pipeline\PxcNpBatch.cpp">
+      <Filter>Common Source\pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\common\src\pipeline\PxcNpCacheStreamPair.cpp">
+      <Filter>Common Source\pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\common\src\pipeline\PxcNpContactPrepShared.cpp">
+      <Filter>Common Source\pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\common\src\pipeline\PxcNpMemBlockPool.cpp">
+      <Filter>Common Source\pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\common\src\pipeline\PxcNpThreadContext.cpp">
+      <Filter>Common Source\pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\software\src\PxsCCD.cpp">
+      <Filter>Software Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\software\src\PxsContactManager.cpp">
+      <Filter>Software Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\software\src\PxsContext.cpp">
+      <Filter>Software Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\software\src\PxsDefaultMemoryManager.cpp">
+      <Filter>Software Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\software\src\PxsIslandSim.cpp">
+      <Filter>Software Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\software\src\PxsMaterialCombiner.cpp">
+      <Filter>Software Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\software\src\PxsNphaseImplementationContext.cpp">
+      <Filter>Software Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\software\src\PxsSimpleIslandManager.cpp">
+      <Filter>Software Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\api\include\PxsMaterialCore.h">
+      <Filter>API Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\api\include\PxsMaterialManager.h">
+      <Filter>API Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\api\include\PxvConfig.h">
+      <Filter>API Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\api\include\PxvDynamics.h">
+      <Filter>API Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\api\include\PxvGeometry.h">
+      <Filter>API Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\api\include\PxvGlobals.h">
+      <Filter>API Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\api\include\PxvManager.h">
+      <Filter>API Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\api\include\PxvSimStats.h">
+      <Filter>API Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\common\include\collision\PxcContactMethodImpl.h">
+      <Filter>Common Includes\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\common\include\pipeline\PxcConstraintBlockStream.h">
+      <Filter>Common Includes\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\common\include\pipeline\PxcContactCache.h">
+      <Filter>Common Includes\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\common\include\pipeline\PxcMaterialMethodImpl.h">
+      <Filter>Common Includes\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\common\include\pipeline\PxcNpBatch.h">
+      <Filter>Common Includes\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\common\include\pipeline\PxcNpCache.h">
+      <Filter>Common Includes\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\common\include\pipeline\PxcNpCacheStreamPair.h">
+      <Filter>Common Includes\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\common\include\pipeline\PxcNpContactPrepShared.h">
+      <Filter>Common Includes\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\common\include\pipeline\PxcNpMemBlockPool.h">
+      <Filter>Common Includes\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\common\include\pipeline\PxcNpThreadContext.h">
+      <Filter>Common Includes\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\common\include\pipeline\PxcNpWorkUnit.h">
+      <Filter>Common Includes\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\common\include\utils\PxcScratchAllocator.h">
+      <Filter>Common Includes\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\common\include\utils\PxcThreadCoherentCache.h">
+      <Filter>Common Includes\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\software\include\PxsBodySim.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\software\include\PxsCCD.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\software\include\PxsContactManager.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\software\include\PxsContactManagerState.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\software\include\PxsContext.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\software\include\PxsDefaultMemoryManager.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\software\include\PxsHeapMemoryAllocator.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\software\include\PxsIncrementalConstraintPartitioning.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\software\include\PxsIslandManagerTypes.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\software\include\PxsIslandSim.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\software\include\PxsIslandNodeIndex.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\software\include\PxsKernelWrangler.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\software\include\PxsMaterialCombiner.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\software\include\PxsMemoryManager.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\software\include\PxsNphaseImplementationContext.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\software\include\PxsRigidBody.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\software\include\PxsShapeSim.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\software\include\PxsSimpleIslandManager.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\software\include\PxsSimulationController.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\software\include\PxsTransformCache.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\lowlevel\software\include\PxvNphaseImplementationContext.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\source\compiler\cmake\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="API Includes">
+      <UniqueIdentifier>{24ABB5B4-FAA0-34B0-A60D-14B822703B03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API Source">
+      <UniqueIdentifier>{51541895-5648-3AA9-8423-5BED49F3E9C4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common Includes">
+      <UniqueIdentifier>{0C8CC210-31C4-319D-8A22-93CF748678D5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common Includes\collision">
+      <UniqueIdentifier>{1EF2B9FA-18DD-3B6E-8E65-836B17D25582}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common Includes\pipeline">
+      <UniqueIdentifier>{0B992FF2-0946-344F-9B9D-60A1FFA70C48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common Includes\utils">
+      <UniqueIdentifier>{5AD1530D-C182-34D0-A343-C15271F990A0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common Source">
+      <UniqueIdentifier>{4748E4C3-EE70-3D30-AE31-7BC00F3F4BE0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common Source\pipeline">
+      <UniqueIdentifier>{9FB99C5C-E684-39EF-88EA-FF2A3C5C6E14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Software Includes">
+      <UniqueIdentifier>{57668416-7A77-3C45-8A33-2920EDA0DA83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Software Source">
+      <UniqueIdentifier>{6025637B-D6A1-3AB8-9E16-2B090FBE1052}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

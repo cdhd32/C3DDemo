@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\snippets\snippetcommon\ClassicMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\snippets\snippetraycastccd\SnippetRaycastCCD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\snippets\snippetraycastccd\SnippetRaycastCCDRender.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\snippets\snippetcommon\SnippetPrint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\snippets\snippetcommon\SnippetPVD.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\snippets\compiler\cmake\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{D62C67BC-087D-3A74-B727-3250CCBEE69E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{44C1CA75-E853-348F-80CD-561A47A196B6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

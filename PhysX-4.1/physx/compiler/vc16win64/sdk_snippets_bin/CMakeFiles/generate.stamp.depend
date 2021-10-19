@@ -1,0 +1,15 @@
+# CMake generation dependency list for this directory.
+C:/Users/CADD/Documents/게임인재원/GA1stFinal_MaterialNinja/5_Project/Lib/PhysX-4.1/externals/cmakemodules/ConfigureFileMT.cmake
+C:/Users/CADD/Documents/게임인재원/GA1stFinal_MaterialNinja/5_Project/Lib/PhysX-4.1/externals/cmakemodules/GetCompilerAndPlatform.cmake
+C:/Users/CADD/Documents/게임인재원/GA1stFinal_MaterialNinja/5_Project/Lib/PhysX-4.1/externals/cmakemodules/NvidiaBuildOptions.cmake
+C:/Users/CADD/Documents/게임인재원/GA1stFinal_MaterialNinja/5_Project/Lib/PhysX-4.1/externals/cmakemodules/SetOutputPaths.cmake
+C:/Users/CADD/Documents/게임인재원/GA1stFinal_MaterialNinja/5_Project/Lib/PhysX-4.1/physx/snippets/compiler/cmake/CMakeLists.txt
+C:/Users/CADD/Documents/게임인재원/GA1stFinal_MaterialNinja/5_Project/Lib/PhysX-4.1/physx/snippets/compiler/cmake/SnippetRender.cmake
+C:/Users/CADD/Documents/게임인재원/GA1stFinal_MaterialNinja/5_Project/Lib/PhysX-4.1/physx/snippets/compiler/cmake/SnippetTemplate.cmake
+C:/Users/CADD/Documents/게임인재원/GA1stFinal_MaterialNinja/5_Project/Lib/PhysX-4.1/physx/snippets/compiler/cmake/SnippetUtils.cmake
+C:/Users/CADD/Documents/게임인재원/GA1stFinal_MaterialNinja/5_Project/Lib/PhysX-4.1/physx/snippets/compiler/cmake/SnippetVehicleTemplate.cmake
+C:/Users/CADD/Documents/게임인재원/GA1stFinal_MaterialNinja/5_Project/Lib/PhysX-4.1/physx/snippets/compiler/cmake/windows/CMakeLists.txt
+C:/Users/CADD/Documents/게임인재원/GA1stFinal_MaterialNinja/5_Project/Lib/PhysX-4.1/physx/snippets/compiler/cmake/windows/SnippetRender.cmake
+C:/Users/CADD/Documents/게임인재원/GA1stFinal_MaterialNinja/5_Project/Lib/PhysX-4.1/physx/snippets/compiler/cmake/windows/SnippetTemplate.cmake
+C:/Users/CADD/Documents/게임인재원/GA1stFinal_MaterialNinja/5_Project/Lib/PhysX-4.1/physx/snippets/compiler/cmake/windows/SnippetUtils.cmake
+C:/Users/CADD/Documents/게임인재원/GA1stFinal_MaterialNinja/5_Project/Lib/PhysX-4.1/physx/snippets/compiler/cmake/windows/SnippetVehicleTemplate.cmake

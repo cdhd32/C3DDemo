@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{367deb7f-3426-49ac-b0fc-729e80f7fe8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{dbd8767a-59c2-4909-9480-df47f61eca3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\Collision">
+      <UniqueIdentifier>{4445ec27-7ca5-4dd6-ae50-71af15320f78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External">
+      <UniqueIdentifier>{a7b67599-48e8-492e-99fa-c7876dafe233}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\DXTK">
+      <UniqueIdentifier>{bb0cd3fa-d999-4c8c-9f25-e1f7db51bb8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\Collision\Callback">
+      <UniqueIdentifier>{82f63fce-bae6-41df-aaec-2ae63049e0d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\temp">
+      <UniqueIdentifier>{096ea227-4da9-4bf4-b374-062a9e396e65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\Collision\Shape">
+      <UniqueIdentifier>{d509384e-6487-43ae-a5fc-9349aac14c1d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleWindow.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadUtil.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsEngineMain.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsEngine.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterController.h">
+      <Filter>Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\Camera.h">
+      <Filter>External\DXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\EngineInterface.h">
+      <Filter>External\DXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\GamePad.h">
+      <Filter>External\DXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\Keyboard.h">
+      <Filter>External\DXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\Mouse.h">
+      <Filter>External\DXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\SimpleMath.h">
+      <Filter>External\DXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PhysicsExampleGame\Object.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="ISimulationEventCallback.h">
+      <Filter>Physics\Collision\Callback</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxCollider.h">
+      <Filter>Physics\temp</Filter>
+    </ClInclude>
+    <ClInclude Include="CapsuleCollider.h">
+      <Filter>Physics\temp</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaneCollider.h">
+      <Filter>Physics\temp</Filter>
+    </ClInclude>
+    <ClInclude Include="QuadCollider.h">
+      <Filter>Physics\temp</Filter>
+    </ClInclude>
+    <ClInclude Include="ShpereCollider.h">
+      <Filter>Physics\temp</Filter>
+    </ClInclude>
+    <ClInclude Include="TriangleMeshCollider.h">
+      <Filter>Physics\temp</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxShape.h">
+      <Filter>Physics\Collision\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="CapsuleShape.h">
+      <Filter>Physics\Collision\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaneShape.h">
+      <Filter>Physics\Collision\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>Physics\Collision\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereShape.h">
+      <Filter>Physics\Collision\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="TriangleMeshShape.h">
+      <Filter>Physics\Collision\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="Rigidbody.h">
+      <Filter>Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Trigger.h">
+      <Filter>Physics\temp</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsEngineInterface.h">
+      <Filter>Physics\temp</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Physics\temp</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Physics\temp</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>Physics\temp</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingBox.h">
+      <Filter>Physics\temp</Filter>
+    </ClInclude>
+    <ClInclude Include="ICCTEventCallBack.h">
+      <Filter>Physics\temp</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsObjects.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="QueryRay.h">
+      <Filter>Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="QueryOverlap.h">
+      <Filter>Physics\Collision</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleWindow.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadUtil.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsEngineMain.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsEngine.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterController.cpp">
+      <Filter>Physics\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="ISimulationEventCallback.cpp">
+      <Filter>Physics\Collision\Callback</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxCollider.cpp">
+      <Filter>Physics\temp</Filter>
+    </ClCompile>
+    <ClCompile Include="CapsuleCollider.cpp">
+      <Filter>Physics\temp</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaneCollider.cpp">
+      <Filter>Physics\temp</Filter>
+    </ClCompile>
+    <ClCompile Include="QuadCollider.cpp">
+      <Filter>Physics\temp</Filter>
+    </ClCompile>
+    <ClCompile Include="ShpereCollider.cpp">
+      <Filter>Physics\temp</Filter>
+    </ClCompile>
+    <ClCompile Include="TriangleMeshCollider.cpp">
+      <Filter>Physics\temp</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxShape.cpp">
+      <Filter>Physics\Collision\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="CapsuleShape.cpp">
+      <Filter>Physics\Collision\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaneShape.cpp">
+      <Filter>Physics\Collision\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="Shape.cpp">
+      <Filter>Physics\Collision\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="SphereShape.cpp">
+      <Filter>Physics\Collision\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="TriangleMeshShape.cpp">
+      <Filter>Physics\Collision\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="Rigidbody.cpp">
+      <Filter>Physics\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Trigger.cpp">
+      <Filter>Physics\temp</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsEngineInterface.cpp">
+      <Filter>Physics\temp</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Physics\temp</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Physics\temp</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>Physics\temp</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundingBox.cpp">
+      <Filter>Physics\temp</Filter>
+    </ClCompile>
+    <ClCompile Include="ICCTEventCallBack.cpp">
+      <Filter>Physics\temp</Filter>
+    </ClCompile>
+    <ClCompile Include="QueryRay.cpp">
+      <Filter>Physics\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="QueryOverlap.cpp">
+      <Filter>Physics\Collision</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DPhysics.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="DPhysics.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Library\SimpleMath.inl">
+      <Filter>External\DXTK</Filter>
+    </None>
+  </ItemGroup>
+</Project>

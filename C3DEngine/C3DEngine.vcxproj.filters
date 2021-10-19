@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Graphics\C3DDevice.cpp">
+      <Filter>Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\C3DRenderer.cpp">
+      <Filter>Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\C3DShader.cpp">
+      <Filter>Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\C3DCamera.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="System\C3DTimer.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\C3DLight.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\C3DMaterial.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\C3DAlignedAllocationPolicy.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\C3DLine.cpp">
+      <Filter>System\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\C3DAxis.cpp">
+      <Filter>System\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\C3DGrid.cpp">
+      <Filter>System\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\C3DRay.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\C3DObject.cpp">
+      <Filter>Objects\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="System\C3DTransform.cpp">
+      <Filter>System\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="System\C3DScene.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\C3DGame.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\SoundEngine.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Graphics\C3DDevice.h">
+      <Filter>Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\C3DRenderer.h">
+      <Filter>Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\C3DShader.h">
+      <Filter>Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\C3DCamera.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="System\C3DTimer.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\C3DLight.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\C3DMaterial.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\DirectXDefine.h">
+      <Filter>Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\C3DAlignedAllocationPolicy.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\RendererDefine.h">
+      <Filter>Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\C3DLine.h">
+      <Filter>System\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\C3DAxis.h">
+      <Filter>System\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\C3DGrid.h">
+      <Filter>System\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\C3DRay.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\GeoObjectDefine.h">
+      <Filter>Objects\GeoObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\C3DObject.h">
+      <Filter>Objects\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="System\C3DTransform.h">
+      <Filter>System\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="System\C3DScene.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\C3DGame.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>C3DFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\SoundEngine.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\SoundEngineDefine.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="C3DEngine.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Graphic">
+      <UniqueIdentifier>{9b73c211-af38-47db-bb84-435cc63eb07d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{a5bf22d5-9bc1-4638-b519-ee8771c22b95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{c492d60e-f2f8-4046-a845-de2b1059d14a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{21d82658-265f-433b-8094-144320effc94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{e65a7867-9bbe-41db-ab38-f85cabcdd6cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphic\Shader">
+      <UniqueIdentifier>{fc8fa68c-781e-4e50-9a54-7c583cd945e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphic\Shader\fx">
+      <UniqueIdentifier>{46afbe1c-5d39-4628-b962-737cd0a5aed8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{30cb38f4-470e-4c8c-9e31-16eff4d832d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Debug">
+      <UniqueIdentifier>{a75fd51f-7d84-478d-ac53-538ba5da1707}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\GeoObject">
+      <UniqueIdentifier>{3caa496b-17a2-4d40-81cc-72bdfbda91b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Object">
+      <UniqueIdentifier>{3b8c2eed-d334-43bc-a032-cd09c124aec0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Transform">
+      <UniqueIdentifier>{4fb005f0-dc6a-48fd-9cb1-6b509ece6e5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C3DFramework">
+      <UniqueIdentifier>{49292ed0-cbc1-421f-b203-4bd461288432}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Test">
+      <UniqueIdentifier>{abc6a5e0-0dda-4935-948c-d20b5a4f706e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{e288d574-07e9-4441-8743-8bd5d0f04838}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C3DEngine.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Data\fx\Default.fx">
+      <Filter>Graphic\Shader\fx</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Data\fx\Default_WireFrm.fx">
+      <Filter>Graphic\Shader\fx</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

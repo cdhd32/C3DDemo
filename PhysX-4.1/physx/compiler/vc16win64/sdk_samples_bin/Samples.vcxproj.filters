@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplebridges\SampleBridges.cpp">
+      <Filter>SampleBridges</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplebridges\SampleBridgesCCT.cpp">
+      <Filter>SampleBridges</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplecustomgravity\Planet.cpp">
+      <Filter>SampleCustomGravity</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplecustomgravity\SampleCustomGravity.cpp">
+      <Filter>SampleCustomGravity</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplecustomgravity\SampleCustomGravity_CCT.cpp">
+      <Filter>SampleCustomGravity</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplecustomgravity\SampleCustomGravityBuilder.cpp">
+      <Filter>SampleCustomGravity</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplecustomgravity\SampleCustomGravityCameraController.cpp">
+      <Filter>SampleCustomGravity</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplecustomgravity\SampleCustomGravityFilterShader.cpp">
+      <Filter>SampleCustomGravity</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplehelloworld\SampleHelloWorld.cpp">
+      <Filter>SampleHelloWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplelargeworld\ChunkLoader.cpp">
+      <Filter>SampleLargeWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplelargeworld\MeshBuilder.cpp">
+      <Filter>SampleLargeWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplelargeworld\SampleLargeWorld.cpp">
+      <Filter>SampleLargeWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplelargeworld\SampleLargeWorldCCT.cpp">
+      <Filter>SampleLargeWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplenorthpole\SampleNorthPole.cpp">
+      <Filter>SampleNorthPole</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplenorthpole\SampleNorthPoleBuilder.cpp">
+      <Filter>SampleNorthPole</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplenorthpole\SampleNorthPoleCameraController.cpp">
+      <Filter>SampleNorthPole</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplenorthpole\SampleNorthPoleCCT.cpp">
+      <Filter>SampleNorthPole</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplenorthpole\SampleNorthPoleDynamics.cpp">
+      <Filter>SampleNorthPole</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplenorthpole\SampleNorthPoleFilterShader.cpp">
+      <Filter>SampleNorthPole</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplesubmarine\Crab.cpp">
+      <Filter>SampleSubmarine</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplesubmarine\SampleSubmarine.cpp">
+      <Filter>SampleSubmarine</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplevehicle\SampleVehicle.cpp">
+      <Filter>SampleVehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplevehicle\SampleVehicleDebugRender.cpp">
+      <Filter>SampleVehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplevehicle\SampleVehicleTerrain.cpp">
+      <Filter>SampleVehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplevehicle\SampleVehicle_CameraController.cpp">
+      <Filter>SampleVehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplevehicle\SampleVehicle_ControlInputs.cpp">
+      <Filter>SampleVehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplevehicle\SampleVehicle_GameLogic.cpp">
+      <Filter>SampleVehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplevehicle\SampleVehicle_SceneQuery.cpp">
+      <Filter>SampleVehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplevehicle\SampleVehicle_VehicleController.cpp">
+      <Filter>SampleVehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplevehicle\SampleVehicle_VehicleCooking.cpp">
+      <Filter>SampleVehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplevehicle\SampleVehicle_VehicleManager.cpp">
+      <Filter>SampleVehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplevehicle\SampleVehicle_WheelQueryResults.cpp">
+      <Filter>SampleVehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplecctsharedcode\KinematicPlatform.cpp">
+      <Filter>CCTShared</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplecctsharedcode\SampleCCTActor.cpp">
+      <Filter>CCTShared</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplecctsharedcode\SampleCCTCameraController.cpp">
+      <Filter>CCTShared</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplecctsharedcode\SampleCCTJump.cpp">
+      <Filter>CCTShared</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplebridges\SampleBridges.h">
+      <Filter>SampleBridges</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplebridges\SampleBridgesInputEventIds.h">
+      <Filter>SampleBridges</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplebridges\SampleBridgesSettings.h">
+      <Filter>SampleBridges</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplecustomgravity\Planet.h">
+      <Filter>SampleCustomGravity</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplecustomgravity\SampleCustomGravity.h">
+      <Filter>SampleCustomGravity</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplecustomgravity\SampleCustomGravityCameraController.h">
+      <Filter>SampleCustomGravity</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplecustomgravity\SampleCustomGravityInputEventIds.h">
+      <Filter>SampleCustomGravity</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplehelloworld\SampleHelloWorld.h">
+      <Filter>SampleHelloWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplelargeworld\ChunkLoader.h">
+      <Filter>SampleLargeWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplelargeworld\MeshBuilder.h">
+      <Filter>SampleLargeWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplelargeworld\SampleLargeWorld.h">
+      <Filter>SampleLargeWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplelargeworld\SampleLargeWorldInputEventIds.h">
+      <Filter>SampleLargeWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplenorthpole\SampleNorthPole.h">
+      <Filter>SampleNorthPole</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplenorthpole\SampleNorthPoleCameraController.h">
+      <Filter>SampleNorthPole</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplenorthpole\SampleNorthPoleInputEventIds.h">
+      <Filter>SampleNorthPole</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplesubmarine\Crab.h">
+      <Filter>SampleSubmarine</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplesubmarine\SampleSubmarine.h">
+      <Filter>SampleSubmarine</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplesubmarine\SampleSubmarineInputEventIds.h">
+      <Filter>SampleSubmarine</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplesubmarine\SubmarineCameraController.h">
+      <Filter>SampleSubmarine</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplevehicle\SampleVehicle.h">
+      <Filter>SampleVehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplevehicle\SampleVehicleInputEventIds.h">
+      <Filter>SampleVehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplevehicle\SampleVehicle_CameraController.h">
+      <Filter>SampleVehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplevehicle\SampleVehicle_ControlInputs.h">
+      <Filter>SampleVehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplevehicle\SampleVehicle_GameLogic.h">
+      <Filter>SampleVehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplevehicle\SampleVehicle_SceneQuery.h">
+      <Filter>SampleVehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplevehicle\SampleVehicle_VehicleController.h">
+      <Filter>SampleVehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplevehicle\SampleVehicle_VehicleCooking.h">
+      <Filter>SampleVehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplevehicle\SampleVehicle_VehicleManager.h">
+      <Filter>SampleVehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplevehicle\SampleVehicle_WheelQueryResults.h">
+      <Filter>SampleVehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplecctsharedcode\KinematicPlatform.h">
+      <Filter>CCTShared</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplecctsharedcode\SampleCCTActor.h">
+      <Filter>CCTShared</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplecctsharedcode\SampleCCTCameraController.h">
+      <Filter>CCTShared</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\samplecctsharedcode\SampleCCTJump.h">
+      <Filter>CCTShared</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\CADD\Documents\게임인재원\GA1stFinal_MaterialNinja\5_Project\Lib\PhysX-4.1\physx\samples\compiler\cmake\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CCTShared">
+      <UniqueIdentifier>{A911C0D6-69B3-3439-91FE-A4CE50F1B2DF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SampleBridges">
+      <UniqueIdentifier>{5DC40F28-1AEA-397F-A945-B717D4431339}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SampleCustomGravity">
+      <UniqueIdentifier>{3D001157-6EEF-3A7F-B460-14F4DD7F26CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SampleHelloWorld">
+      <UniqueIdentifier>{15D221AD-2B3D-3E47-8BCC-BF6B93004448}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SampleLargeWorld">
+      <UniqueIdentifier>{71D02681-96B9-3416-894A-86C94F80BA0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SampleNorthPole">
+      <UniqueIdentifier>{D74F1225-DE31-3FB8-A83C-13F8576DC3B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SampleSubmarine">
+      <UniqueIdentifier>{6830D6B3-AE6C-3D21-BF91-80A6D80597F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SampleVehicle">
+      <UniqueIdentifier>{10DAEC9A-66BB-3315-BD5A-0B9DCF198421}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

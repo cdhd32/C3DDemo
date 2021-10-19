@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="ExampleGame.cpp" />
+    <ClCompile Include="Object.cpp">
+      <Filter>ExampleGame\ObjectManager\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>ExampleGame\ObjectManager\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimatedObject.cpp">
+      <Filter>ExampleGame\ObjectManager\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="HeroObject.cpp">
+      <Filter>ExampleGame\ObjectManager\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitObject.cpp">
+      <Filter>ExampleGame\ObjectManager\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>ExampleGame\ObjectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraControl.cpp">
+      <Filter>ExampleGame\CameraControl</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionObject.cpp">
+      <Filter>ExampleGame\ObjectManager\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponObject.cpp" />
+    <ClCompile Include="EnemyObject.cpp">
+      <Filter>ExampleGame\ObjectManager\GameObject</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ExampleGame">
+      <UniqueIdentifier>{5403ebf0-012b-4185-b19e-ef3f7d125178}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExampleGame\ObjectManager">
+      <UniqueIdentifier>{8774fd7b-8800-4529-a25d-d3419fe91423}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExampleGame\ObjectManager\ResourceManager">
+      <UniqueIdentifier>{bb176447-a6f6-4ffc-aaa1-ece455738d23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExampleGame\ObjectManager\GameObject">
+      <UniqueIdentifier>{c8d7185a-ae3e-4399-9705-56984528f340}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExampleGame\CameraControl">
+      <UniqueIdentifier>{4ece0e27-8993-43e5-bea9-039e050daa9b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ExampleGame.h" />
+    <ClInclude Include="Object.h">
+      <Filter>ExampleGame\ObjectManager\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>ExampleGame\ObjectManager\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatedObject.h">
+      <Filter>ExampleGame\ObjectManager\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="HeroObject.h">
+      <Filter>ExampleGame\ObjectManager\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitObject.h">
+      <Filter>ExampleGame\ObjectManager\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>ExampleGame\ObjectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraControl.h">
+      <Filter>ExampleGame\CameraControl</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionObject.h">
+      <Filter>ExampleGame\ObjectManager\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponObject.h" />
+    <ClInclude Include="EnemyObject.h">
+      <Filter>ExampleGame\ObjectManager\GameObject</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
