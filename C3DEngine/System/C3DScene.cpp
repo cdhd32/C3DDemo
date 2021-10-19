@@ -12,10 +12,6 @@
 #include "../Objects/C3DGrid.h"
 #include "../Objects/C3DObject.h"
 
-#include "../../CubePlanet/GameSrc/Cube.h"
-#include "../../CubePlanet/GameSrc/RCube.h"
-#include "../../CubePlanet/RubiksCube.h"
-
 #include "C3DScene.h"
 
 C3DScene::C3DScene()

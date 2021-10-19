@@ -8,6 +8,9 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DirectXTK_Desktop_2019_Win10", "DXTK\DirectXTK_Desktop_2019_Win10.vcxproj", "{E0B52AE7-E160-4D32-BF3F-910B785E5A8E}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C3DDemo", "C3DDemo\C3DDemo.vcxproj", "{A5797642-DA55-4559-9279-B037F7B50DC2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E904B150-0ACE-4AFF-A911-9061564179F7} = {E904B150-0ACE-4AFF-A911-9061564179F7}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DPhysics", "DPhysics\DPhysics.vcxproj", "{3766A3D9-8520-4772-8A8E-971499174367}"
 EndProject
