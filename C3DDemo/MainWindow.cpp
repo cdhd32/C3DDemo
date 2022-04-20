@@ -6,21 +6,13 @@
 #include "Resource.h"
 
 #include "DemoScene.h"
+#include "PhysicsEngine.h"
+#include "System/C3DTimer.h"
 
 #include "MainWindow.h"
 
 MainWindow* MainWindow::m_pInst = nullptr;
 
-//
-//  함수: WndProc(HWND, UINT, WPARAM, LPARAM)
-//
-//  용도: 주 창의 메시지를 처리합니다.
-//
-//  WM_COMMAND  - 애플리케이션 메뉴를 처리합니다.
-//  WM_PAINT    - 주 창을 그립니다.
-//  WM_DESTROY  - 종료 메시지를 게시하고 반환합니다.
-//
-//
 LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 {
 	switch (message)
@@ -44,8 +36,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 
 MainWindow::MainWindow()
 	: m_hInstance(nullptr),
-	m_hWnd(nullptr),
-	m_pRenderer(nullptr) //,m_pDevice(nullptr)	, m_pRenderer(nullptr)
+	m_hWnd(nullptr)
 {
 
 }
@@ -66,18 +57,14 @@ bool MainWindow::Initialize(HINSTANCE hInstance)
 
 	//생성 및 초기화는 여기서
 	//DXInitialize
-	//m_pDevice = new C3DDevice();
-	//m_pDevice->Initialize(m_hWnd);
-
-	//m_pRenderer = new C3DRenderer();
-	//m_pRenderer->Initialize(m_hWnd); //윈도 핸들 전달
-	//m_pRenderer->DataLoading();
+	m_pDevice = std::make_unique<C3DDevice>();
+	m_pDevice->Initialize(m_hWnd);
 
 	m_pScene = new DemoScene();
-	m_pScene->Initialize(L"TestStage", m_hWnd);
+	PhysicsEngine::PhysicsEngineMain::GetInstance().Initialize();
+	m_pScene->Initialize(L"TestStage", m_hWnd, m_pDevice.get());
 
 	//Model data load
-
 
 	return true;
 }
@@ -101,79 +88,6 @@ bool MainWindow::Release()
 	MainWindow::~MainWindow();
 	return true;
 }
-
-///////////////////////////////////////////////////////////////////////////////
-//// 
-//// 메인 함수.
-////
-//int APIENTRY WinMain(HINSTANCE hInstance,
-//	HINSTANCE hPrevInstance,
-//	LPSTR     lpCmdLine,
-//	int       nCmdShow)
-//{
-//
-//	//------------------------------------------------------------------//
-//	// 콘솔 셋업.
-//	//------------------------------------------------------------------//
-//	if (B3Console::_bUse)
-//	{
-//		B3Console::Alloc();
-//		B3Console::_x = 450;	B3Console::_y = 400;
-//		B3Console::Move();
-//	}
-//
-//	//------------------------------------------------------------------//
-//	// 기본적인 윈도우 프레임 생성..                                    //
-//	//------------------------------------------------------------------//
-//	if (!InitWindow(960, 600)) return 0;
-//
-//
-//	//------------------------------------------------------------------//
-//	// D3D 설정															//
-//	//------------------------------------------------------------------//
-//	if (FAILED(InitialD3D(g_hWnd)))
-//		return 0;
-//
-//	//------------------------------------------------------------------//
-//	// 게임 데이터 로딩                                                //
-//	//------------------------------------------------------------------//
-//	if (FAILED(LoadData()))
-//	{
-//		g_bLoop = FALSE;
-//	}
-//
-//
-//	//------------------------------------------------------------------//
-//	// 메인  루프														//
-//	//------------------------------------------------------------------//
-//	while (g_bLoop)
-//	{
-//		if (!MessagePump())		// 메세지 펌프.
-//			break;
-//
-//		//DInput 업데이트.★
-//		B3Input_CheckInput();
-//		if (IsKeyDown(DIK_ESCAPE)) break;
-//
-//
-//		/* 이하 게임 로직 */
-//		Render();
-//
-//	}
-//
-//	//------------------------------------------------------------------//
-//	// 어플리케이션 종료시, 관련 메모리를 제거한다.						//	
-//	//------------------------------------------------------------------//
-//	ReleaseData();
-//	ReleaseD3D();
-//	B3Error(NO_, "[info] 어플리케이션 종료..");
-//
-//	//콘솔 제거.
-//	if (B3Console::_bUse) B3Console::Free();
-//
-//
-//	return 0;
-//}
 
 //위에 함수를 참고하여 순서대로 각 함수별로 필요한 기능/함수들을 추가 구현, dx 초기화과정
 HRESULT MainWindow::MainWindowLoop()
@@ -201,10 +115,27 @@ HRESULT MainWindow::MainWindowLoop()
 			//m_pRenderer->SceneUpdate();
 			//m_pRenderer->SceneRender();
 
-			m_pScene->FixedUpdate();
-			m_pScene->Update();
-			m_pScene->Render();
+			//매 업데이트 시 dTime을 가져와서 누적시킨다
+			float dTime = C3DTimer::GetInstanse()->GetDeltaTime();
 
+			static float accumTime = 0;
+			accumTime += dTime;
+
+			if (accumTime > (1.f / 60.f))
+			{
+				m_pScene->FixedUpdate(accumTime);
+				accumTime = accumTime - (1.f / 60.f);
+			}
+
+			PhysicsEngine::PhysicsEngineMain::GetInstance().Update();
+			m_pScene->Update();
+			//랜더 상태 업테이트
+			m_pDevice->RenderStateUpdate();
+			//백버퍼 클리어
+			m_pDevice->RTClear(C3DDevice::CLEAR_COLOR_DBLUE);
+			m_pScene->Render();
+			//디바이스 화면 출력
+			m_pDevice->Flip();
 			//ETC
 
 			

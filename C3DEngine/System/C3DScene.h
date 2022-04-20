@@ -7,6 +7,7 @@
 //#include "../Sound/SoundEngine.h" //fmod 사운드 엔진
 
 #include "../Graphics/C3DDevice.h"
+#include "../Graphics/C3DRenderer.h"
 #include "../Graphics/C3DShader.h"
 
 #include "../Objects/C3DCamera.h"
@@ -37,22 +38,19 @@ class C3DScene
 public:
 
 protected:
-
-protected:
 	//신 id
 	std::wstring m_SceneName;
 	unsigned int m_SceneId;
 	//신, 스테이지 구성정보 메타 파일, 텍스트로 구성 예정 지금은 스테이지 하나만...
 	//std::wstring m_SceneFileName;
-	//FMOD 사운드
-	//SoundEngine& m_SoundEngine;
+
 public:
 	C3DScene();
 	~C3DScene();
 
 	//void Initialize(std::wstring sceneName);
 	void Initialize(std::wstring sceneName, HWND hWnd);
-	void FixedUpdate();
+	void FixedUpdate(float deltaTime);
 	void Update();
 	void Render();
 	void Release();

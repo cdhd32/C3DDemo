@@ -1,6 +1,12 @@
 #include "DemoScene.h"
 
+#include "../C3DEngine/Graphics/C3DShader.h"
+#include "../C3DEngine/Objects/C3DMaterial.h"
+#include "../C3DEngine/System/C3DTransform.h"
+#include "../C3DEngine/Objects/C3DObject.h"
+
 DemoScene::DemoScene()
+	:C3DScene()
 {
 
 }
@@ -10,38 +16,26 @@ DemoScene::~DemoScene()
 
 }
 
-void DemoScene::Initialize(std::wstring sceneName, HWND hWnd)
+void DemoScene::Initialize(std::wstring sceneName, HWND hWnd, C3DDevice* pDevice)
 {
 	m_SceneName = sceneName;
 
-	_CreateObjects(hWnd);
+	_CreateObjects(hWnd, pDevice);
 	_LoadData();
+	m_pSpriteBatch = new SpriteBatch(pDevice->GetDXDC());
+	m_pFont = new SpriteFont(pDevice->GetDevice(), L"../Data/SegoeUI_24.spritefont");
 
-	//로딩 끝나면 BGM 재생 시작, 주석 제거하면 정상 작동함
-	//m_SoundEngine.PlayBGMSound(eSoundResourceBGM::INGAME);
-	//m_SoundEngine.SetBGMVolume(0.8);
+	m_ModelLoader = new C3DModelLoader();
+	m_Model = m_ModelLoader->LoadFBX("../Data/PurpleHeart.fbx");
 
 	C3DTimer::GetInstanse()->GetDeltaTime();
 }
 
-void DemoScene::FixedUpdate()
+void DemoScene::FixedUpdate(float deltaTime)
 {
-	//매 업데이트 시 dTime을 가져와서 누적시킨다
-	float dTime = C3DTimer::GetInstanse()->GetDeltaTime();
-
-	static float accumTime = 0;
-	accumTime += dTime;
-
-	if (accumTime > (1.f / 60.f) )
-	{
-		//물리 객체 업데이트
-		m_Box->FixedUpdate(accumTime);
-		m_PCBox->FixedUpdate(accumTime); //PC 업데이트
-		accumTime = accumTime - (1.f / 60.f);
-	}
-
-	//물리 시뮬레이션 업데이트
-	m_pPhysicsEngine->Update();
+	//물리 객체 업데이트
+	m_Box->FixedUpdate(deltaTime);
+	m_PCBox->FixedUpdate(deltaTime); //PC 업데이트
 }
 
 void DemoScene::Update()
@@ -49,14 +43,10 @@ void DemoScene::Update()
 	//매 업데이트 시 dTime을 가져온다.
 	float dTime = C3DTimer::GetInstanse()->GetDeltaTime();
 
-	//랜더 상태 업테이트, 여기 보다 다른 곳에서 호출하는 게 좋을 것 같다.
-	m_pDevice->RenderStateUpdate();
-
 	//신 오브젝트 업데이트
-
 	//ObjUpdate(dTime);
 	m_pCam->UpdateCamera(dTime);
-	m_pDirLight->Update(); 
+	m_pDirLight->Update();
 	//m_pMtrl->Update();
 
 	//임시 상수버퍼 업데이트, cam, light, material 등 상수 버퍼 정보 
@@ -68,7 +58,7 @@ void DemoScene::Update()
 
 	//그리드 업데이트
 	m_pGrid->Update(dTime);
-	
+
 
 	//신 오브젝트 업데이트 끝
 
@@ -81,9 +71,6 @@ void DemoScene::Release()
 
 void DemoScene::Render()
 {
-	//백버퍼 클리어
-	m_pDevice->RTClear(C3DDevice::CLEAR_COLOR_DBLUE);
-
 	//신 오브젝트 Draw
 	m_pGrid->Draw();
 
@@ -97,26 +84,24 @@ void DemoScene::Render()
 	m_PCBox->RenderUpdate();
 	//신 오브젝트 Draw 끝
 
-	//디바이스 화면 출력
-	m_pDevice->Flip();
+	//폰트 출력 프레임 표시 #checkpoint
+	m_pSpriteBatch->Begin();
+	m_pFont->DrawString(m_pSpriteBatch, L"Hello, world!", XMFLOAT2(200, 200));
+	m_pSpriteBatch->End();
 
 }
 
-void DemoScene::_CreateObjects(HWND hWnd)
+void DemoScene::_CreateObjects(HWND hWnd, C3DDevice* pDevice)
 {
-	//DX 디바이스 초기화
-	m_pDevice = new C3DDevice();
-	m_pDevice->Initialize(hWnd);
-
 	//물리 엔진
-	m_pPhysicsEngine = &PhysicsEngine::PhysicsEngineMain::GetInstance();
-	m_pPhysicsEngine->Initialize();
+	//m_pPhysicsEngine = &PhysicsEngine::PhysicsEngineMain::GetInstance();
+	//m_pPhysicsEngine->Initialize();
 
 	//쉐이더 생성, Device와 DirectXDC의 인터페이스를 얻는다
-	m_pShader = new C3DShader(m_pDevice);
+	m_pShader = new C3DShader(pDevice);
 	m_pShader->ShaderSetup(L"../Data/fx/Default.fx", SHADERTYPE::SHADER_DEFALT);
 
-	m_pLineShader = new C3DShader(m_pDevice);
+	m_pLineShader = new C3DShader(pDevice);
 	m_pLineShader->ShaderSetup(L"../Data/fx/Default_WireFrm.fx", SHADERTYPE::SHADER_LINE);
 
 	//Camera 

@@ -21,13 +21,13 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -57,7 +57,7 @@
       <ConformanceMode>false</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>$(SolutionDir)DXTK\Inc;$(SolutionDir)DPhysics\Library\physx;$(SolutionDir)DPhysics</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)DXTK\Inc;$(SolutionDir)DPhysics\Library\physx;$(SolutionDir)DPhysics;$(SolutionDir)C3DEngine;$(SolutionDir)FBX\include</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <ShowIncludes>true</ShowIncludes>
     </ClCompile>
@@ -65,7 +65,7 @@
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>C3DEngine.lib;DirectXTK.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(SolutionDir)$(Platform)\$(Configuration)\;$(SolutionDir)DXTK\Bin\$(Platform)\$(Configuration)\;$(SolutionDir)FMOD\api\lib;$(SolutionDir)DPhysics\Library\$(Configuration)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)$(Platform)\$(Configuration)\;$(SolutionDir)DXTK\Bin\$(Platform)\$(Configuration)\;$(SolutionDir)FMOD\api\lib;$(SolutionDir)DPhysics\Library\$(Configuration);$(SolutionDir)FBX\lib\vs2019\$(Platform)\$(Configuration)\</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -78,7 +78,7 @@
       <ConformanceMode>false</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>$(SolutionDir)DXTK\Inc;$(SolutionDir)DPhysics\Library\physx;$(SolutionDir)DPhysics</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)DXTK\Inc;$(SolutionDir)DPhysics\Library\physx;$(SolutionDir)DPhysics;$(SolutionDir)C3DEngine;$(SolutionDir)FBX\include</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
@@ -87,7 +87,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>C3DEngine.lib;DirectXTK.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(SolutionDir)$(Platform)\$(Configuration)\;$(SolutionDir)DXTK\Bin\$(Platform)\$(Configuration)\;$(SolutionDir)FMOD\api\lib;$(SolutionDir)DPhysics\Library\$(Configuration)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)$(Platform)\$(Configuration)\;$(SolutionDir)DXTK\Bin\$(Platform)\$(Configuration)\;$(SolutionDir)FMOD\api\lib;$(SolutionDir)DPhysics\Library\$(Configuration);$(SolutionDir)FBX\lib\vs2019\$(Platform)\$(Configuration)\</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>

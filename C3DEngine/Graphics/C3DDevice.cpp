@@ -1,6 +1,6 @@
 #pragma once
 #include "../pch.h"
-// DXTK, DXTex 설정하고 yena 구조 참고해서 만들어보기기
+// DXTK, DXTex 설정
 #include "C3DDevice.h"
 
 //장치 설정 기본 정보. DXGI_MODE_DESC

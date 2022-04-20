@@ -6,6 +6,8 @@ class C3DCamera;
 class C3DLight;
 class C3DMaterial;
 
+class C3DObject;
+
 class C3DGrid;
 
 class C3DRenderer

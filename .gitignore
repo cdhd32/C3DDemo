@@ -365,3 +365,6 @@ FodyWeavers.xsd
 # external lib files
 !DPhysics/Library/Debug
 !DPhysics/Library/Release
+
+FBX/
+/C3DDemo-Executable.zip

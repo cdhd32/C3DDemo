@@ -52,6 +52,13 @@
     <ClCompile Include="Sound\SoundEngine.cpp">
       <Filter>Sound</Filter>
     </ClCompile>
+    <ClCompile Include="C3DModelLoader.cpp">
+      <Filter>Graphic\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="C3DModel.cpp">
+      <Filter>Graphic\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="C3DModelNode.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Graphics\C3DDevice.h">
@@ -129,6 +136,13 @@
     <ClInclude Include="Sound\SoundEngineDefine.h">
       <Filter>Sound</Filter>
     </ClInclude>
+    <ClInclude Include="C3DModelLoader.h">
+      <Filter>Graphic\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="C3DModel.h">
+      <Filter>Graphic\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="C3DModelNode.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="C3DEngine.ico">
@@ -183,6 +197,9 @@
     </Filter>
     <Filter Include="Sound">
       <UniqueIdentifier>{e288d574-07e9-4441-8743-8bd5d0f04838}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphic\Model">
+      <UniqueIdentifier>{02bfceb6-4200-4864-9d55-7eca4d051c54}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

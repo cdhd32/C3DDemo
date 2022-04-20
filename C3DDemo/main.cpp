@@ -14,6 +14,13 @@
 
 #include "main.h"
 
+//콘솔 출력
+#ifdef _DEBUG
+    #pragma comment(linker, "/entry:wWinMainCRTStartup /subsystem:console")
+#endif // DEBUG
+
+
+
 int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
                      _In_opt_ HINSTANCE hPrevInstance,
                      _In_ LPWSTR    lpCmdLine,

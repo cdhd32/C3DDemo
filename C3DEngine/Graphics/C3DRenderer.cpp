@@ -7,6 +7,7 @@
 #include "../Objects/C3DCamera.h"
 #include "../Objects/C3DLight.h"
 #include "../Objects/C3DMaterial.h"
+#include "../Objects/C3DObject.h"
 
 #include "../Objects/C3DGrid.h"
 
@@ -195,10 +196,6 @@ void C3DRenderer::SceneUpdate()
 //랜더링은 여기서...
 void C3DRenderer::SceneRender()
 {
-	HRESULT hr = S_OK;
-
-	m_pDevice->RTClear(C3DDevice::CLEAR_COLOR_DBLUE);
-
 	//신 오브젝트 Draw
 
 	//쉐이더 set
@@ -212,8 +209,6 @@ void C3DRenderer::SceneRender()
 
 	m_pGrid->Draw();
 	//신 오브젝트 Draw
-
-	m_pDevice->Flip();
 }
 
 void C3DRenderer::DataRelease()

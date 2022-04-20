@@ -1,8 +1,10 @@
 #pragma once
+#include <iostream>
 
 class C3DRenderer;
 class C3DScene;
 class DemoScene;
+class C3DDevice;
 
 //WinMain 엔트리 포인트에서 실행되는 메인 윈도우 객체
 
@@ -18,7 +20,7 @@ private:
 	HWND m_hWnd;
 
 	//엔진 관련 멤버 변수
-	C3DRenderer* m_pRenderer;
+	std::unique_ptr<C3DDevice> m_pDevice;
 	DemoScene* m_pScene = nullptr;
 
 

@@ -82,7 +82,7 @@ void DemoBox::Initialze()
 	UINT size = sizeof(VERTEX) * BOXVTXNUM;
 	m_pShader->CreateVB(m_pModel, size, &m_pVB);
 
-	//
+	// 
 	Quaternion qurtRot;
 	EulerToQuaternion(m_Rot, qurtRot);
 	m_pRigidBody = Rigidbody::CreateBox(this, RigidbodyType::Dynamic, m_Pos, qurtRot, m_Scale);
