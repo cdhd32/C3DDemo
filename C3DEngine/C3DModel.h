@@ -8,6 +8,7 @@ struct VERTEX;
 
 class C3DModel
 {
+	friend class C3DModelLoader;
 public:
 
 protected:
@@ -37,6 +38,7 @@ protected:
 
 	//¸ðµ¨
 	VERTEX* m_pModel = nullptr;
+	int m_VtxNum = 0;
 
 public:
 	C3DModel() = default;
@@ -49,7 +51,7 @@ public:
 		m_pShader(shader)
 	{}
 
-	void Initialze();
+	void Initialze(C3DShader* pShader);
 	void FixedUpdate(float dTime);
 	void Update();
 	void RenderUpdate();

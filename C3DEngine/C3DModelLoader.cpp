@@ -96,7 +96,7 @@ void LoadVertex(FbxNode* pNode) {
     FbxDouble3 rotation = pNode->LclRotation.Get();
     FbxDouble3 scaling = pNode->LclScaling.Get();
 
-    //버텍스 로딩 #checkpoint
+    //버텍스 로딩
     //FbxMesh* pMesh = pNode->GetMesh();
     //pMesh->get
 
@@ -163,12 +163,41 @@ C3DModel* C3DModelLoader::LoadFBX(const std::string& fileName)
     // Print the nodes of the scene and their attributes recursively.
     // Note that we are not printing the root node because it should
     // not contain any attributes.
+
+    //기존 버텍스 구조체에 입력 작업중 #checkpoint
+    int controlPointsCnt = 0;
+    int triCnt = 0;
+    C3DModel* pModel = new C3DModel;
+
     FbxNode* lRootNode = lScene->GetRootNode();
+    lRootNode = lRootNode->FindChild("PurpleHeartV");
+    if (lRootNode->GetNodeAttribute()->GetAttributeType() != FbxNodeAttribute::eMesh)
+        assert(true);
+
     if (lRootNode) {
-        for (int i = 0; i < lRootNode->GetChildCount(); i++)
-            PrintNode(lRootNode->GetChild(i));
+        int cnt = lRootNode->GetChildCount();
+       
+        //PrintNode(lRootNode->GetChild(i));
+        FbxMesh* pMesh = lRootNode->GetMesh();
+        controlPointsCnt = pMesh->GetControlPointsCount();
+        triCnt = pMesh->GetPolygonCount();
+
+        pModel->m_pModel = new VERTEX[triCnt];
+        pModel->m_VtxNum = triCnt;
+        for (int i = 0; i < triCnt; i++)
+        {
+            pModel->m_pModel[i].x = pMesh->GetControlPointAt(i).mData[0];
+            pModel->m_pModel[i].y = pMesh->GetControlPointAt(i).mData[1];
+            pModel->m_pModel[i].z = pMesh->GetControlPointAt(i).mData[2];
+
+            FbxGeometryElementNormal* pNormal = pMesh->GetElementNormal(0);
+            FbxLayerElement::EMappingMode mappingMode = pNormal->GetMappingMode();
+            pModel->m_pModel[i].nx = pNormal->GetDirectArray().GetAt(i).mData[0];
+            pModel->m_pModel[i].ny = pNormal->GetDirectArray().GetAt(i).mData[1];
+            pModel->m_pModel[i].nz = pNormal->GetDirectArray().GetAt(i).mData[2];
+        }
     }
     // Destroy the SDK manager and all the other objects it was handling.
     lSdkManager->Destroy();
-	return nullptr;
+	return pModel;
 }

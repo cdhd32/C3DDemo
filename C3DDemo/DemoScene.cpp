@@ -27,6 +27,7 @@ void DemoScene::Initialize(std::wstring sceneName, HWND hWnd, C3DDevice* pDevice
 
 	m_ModelLoader = new C3DModelLoader();
 	m_Model = m_ModelLoader->LoadFBX("../Data/PurpleHeart.fbx");
+	m_Model->Initialze(m_pShader);
 
 	C3DTimer::GetInstanse()->GetDeltaTime();
 }
@@ -81,10 +82,11 @@ void DemoScene::Render()
 		m_DemoBoxList[i]->RenderUpdate();
 	}
 
+	m_Model->RenderUpdate();
 	m_PCBox->RenderUpdate();
 	//신 오브젝트 Draw 끝
 
-	//폰트 출력 프레임 표시 #checkpoint
+	//폰트 출력 프레임 표시
 	m_pSpriteBatch->Begin();
 	m_pFont->DrawString(m_pSpriteBatch, L"Hello, world!", XMFLOAT2(200, 200));
 	m_pSpriteBatch->End();
